@@ -1,0 +1,66 @@
+No computador:
+-- Ao instalar o git, marque a opção de criar minha path no cmd
+	
+	use git and optional unix tool from command prompt
+
+No navegador:
+-- Abri a conta do github e criar um novo repositorio ou usar um existente 
+	
+	repositorio publico 
+	É importante que o primeiro repositorio esteja vazio, não marque nenhuma opção
+	
+No computador:
+-- Abrir o cmd git bash
+-- Navegar pelo cmd git ate a paste de repositorio git no computador
+
+-- comandos:
+	cd c:			-- entrar em uma pasta
+	ls			-- ver o que tem na pasta
+	
+Exemplos:
+	C:\GIT\DataScience	-- caminho da minha pasta git
+	E:\GIT
+	
+Após entrar na pasta, logar na sua conta git pelo seguintes comandos:
+-- acessar minha conta pelo cmg git
+
+Nome da conta:
+	git config --global user.name "woshpereira"
+	
+Email da conta:					
+	git config --global user.email "washpereiraa@gmail.com"
+	
+
+-- clonar um repositorio da nuvem pro meu pc/pasta git
+
+	git clone https://github.com/WashPereira/DataScience.git
+	git clone https://github.com/WashPereira/DataScience-MachineLearning.git
+	
+	  		
+-- para entrar na pasta de repositorio para executar os comandos com usuario master, exemplos:
+	cd nome da pasta - repositorio
+	cd DataScience
+	cd DataScience-MachineLearning
+
+
+-- adicionar um arquivo a pasta git, fazer commit e push (enviar para a nuvem git):
+
+	git add nome do arquivo/pasta	
+	-- vincula o arquivo a pasta git (esse comando s� precisa ser executado uma vez a cada arquivo novo)
+	
+	git commit -m "primeira procedure enviada ao git" primeira\ procedure.txt
+	-- realiza um comentario para o novo arquivo enviado para enviar a nuvem git
+	
+	git push -u origin master		
+	-- envia o arquivo vinculado + comentario para nuvem git
+
+-- vericar se tem commits para serem feitos
+
+	git status
+
+-- atualizar pasta local com base nos novos arquivos inseridos na nuvem git
+
+	git pull
+
+-- link para ajudar em comandos git
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
