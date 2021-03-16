@@ -1,0 +1,10 @@
+conda create -n nome-personalizado python=2.7  /versão do python
+
+/para ativar
+   activate nome-personalizado
+
+/para desativar
+   desactivate nome-personalizado
+
+/todos ambientes pyhton creados
+   conda info --envs
